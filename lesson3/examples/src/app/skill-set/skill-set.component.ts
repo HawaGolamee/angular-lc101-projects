@@ -9,9 +9,9 @@ export class SkillSetComponent implements OnInit {
    listHeading: string = 'Some Coding Skills I Know';
    skills: string[] = ['Loops', 'Conditionals', 'Functions', 'Classes', 'Modules', 'Git', 'HTML/CSS'];
    alternateColor: string = 'black';
-   bulletType: string = 'A';
+   bulletType: string = 'i';
    changeColor: boolean = true;
-
+   
    constructor() { }
 
    ngOnInit() { }
